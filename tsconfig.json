@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "es2020",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"allowJs": true,
+        "jsx": "react-jsx",
+		"moduleResolution": "Node",
+		"maxNodeModuleJsDepth": 4,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			// "react": ["./node_modules/preact/compat"],
+			// "react-dom/test-utils": ["./node_modules/preact/test-utils"],
+			// "react-dom": ["./node_modules/preact/compat"],
+			// "react/jsx-runtime": ["./node_modules/preact/jsx-runtime"],
+			"assets/*": ["./assets/*"]
+		},
+		"typeRoots" : ["node_modules/@types", "src/types"],
+		"plugins": [{ "name": "typescript-plugin-css-modules" }]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

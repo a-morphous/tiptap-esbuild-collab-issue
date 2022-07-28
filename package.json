@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build",
+    "serve": "http-server ."
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 version",
+    "not dead",
+    "not ie <= 11",
+    "maintained node versions",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "esbuild": "^0.14.42",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@tiptap/core": "2.0.0-beta.182",
+    "@tiptap/extension-collaboration": "2.0.0-beta.38",
+    "@tiptap/extension-collaboration-cursor": "2.0.0-beta.37",
+    "@tiptap/extension-placeholder": "2.0.0-beta.53",
+    "@tiptap/react": "2.0.0-beta.114",
+    "@tiptap/starter-kit": "2.0.0-beta.191",
+    "htm": "^3.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "y-protocols": "^1.0.5",
+    "y-webrtc": "^10.2.3",
+    "yjs": "^13.5.40"
+  }
+}
